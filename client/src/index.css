@@ -1,13 +1,21 @@
-@import 'bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
 .navbar {
     background-color: rgb(229, 172, 229);
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    column-gap: 1.5rem;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
-.navelement {
+.dropdownelement a {
     text-decoration: none;
+}
+
+
+
+/* HOME  */
+.home {
+    background-color: rgb(229, 224, 130);
+    display: flex;
 }
