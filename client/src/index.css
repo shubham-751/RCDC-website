@@ -1,11 +1,11 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .navbar {
-    background-color: rgb(229, 172, 229);
+    background-color: rgb(7, 160, 147);
     display: flex;
     flex-flow:row wrap;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0rem;
 }
 
 .dropdownelement a {
@@ -16,6 +16,14 @@
 
 /* HOME  */
 .home {
-    background-color: rgb(229, 224, 130);
-    display: flex;
+   
 }
+
+#dropdown-basic-button
+{
+    color: black;
+
+}
+
+
+
