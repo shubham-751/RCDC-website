@@ -12,7 +12,7 @@ const NavbarComp = () => {
         //     <div classNameName="navelement"><Link classNameName="btn" to="/projects">Projects</Link></div>
         //     <div classNameName="navelement"><Link classNameName="btn" to="/contactus">Contact Us</Link></div>
         // </div>
-        <Navbar className="border border-secondary" bg="info" expand="lg">
+        <Navbar className="border border-secondary" bg="light" expand="lg">
             <Container>
                 <Navbar.Brand>React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
