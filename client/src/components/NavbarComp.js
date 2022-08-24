@@ -12,16 +12,16 @@ const NavbarComp = () => {
         //     <div classNameName="navelement"><Link classNameName="btn" to="/projects">Projects</Link></div>
         //     <div classNameName="navelement"><Link classNameName="btn" to="/contactus">Contact Us</Link></div>
         // </div>
-        <Navbar className="border border-secondary" bg="light" expand="lg">
+        <Navbar className="border-bottom border-white" bg="dark" expand="lg">
             <Container>
                 {/* <img src={Img}  alt='pic'></img> */}
                 <Navbar.Brand><img className="logo" src={Img}  alt='pic'></img></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                    <Link to="/" className="nav-link">Home</Link>
-                    <Link to="/projects" className="nav-link">Projects</Link>
-                    <Link to="/contactus" className="nav-link">Contact Us</Link>
+                    <Link to="/" className="nav-link text-light">Home</Link>
+                    <Link to="/projects" className="nav-link text-light">Projects</Link>
+                    <Link to="/contactus" className="nav-link text-light">Contact Us</Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
