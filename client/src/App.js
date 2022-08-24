@@ -1,6 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import NavbarComp from './components/NavbarComp';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import Contactus from './components/Contactus';
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <NavbarComp />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
