@@ -1,5 +1,16 @@
+<<<<<<< HEAD
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.navbar {
+    background-color: rgb(7, 160, 147);
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    padding: 0rem;
+=======
 .logo{
     height: 4rem;
+>>>>>>> de105c219db6a45ffa283c2a52375b7386ebe859
 }
 
 
@@ -10,5 +21,19 @@
 
 /* HOME  */
 .home {
+<<<<<<< HEAD
+   
+}
+
+#dropdown-basic-button
+{
+    color: black;
+
+}
+
+
+
+=======
     display: flex;
 }
+>>>>>>> de105c219db6a45ffa283c2a52375b7386ebe859
