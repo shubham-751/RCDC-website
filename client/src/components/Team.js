@@ -7,7 +7,14 @@ const Projects = () => {
     }, []);
 
     return (
-        <h1>Team</h1>
+       <div>
+        <div class="spinner-grow" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<h1>Team</h1>
+       </div>
+        
+        
     );
 }
  
