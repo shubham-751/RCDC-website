@@ -17,8 +17,8 @@ const Home = () => {
         </Row>
         
         <Row>
-      <Card class="text-center my-5 py-4 bg-secondary text-white " >
-        <Card.Body>
+      <Card class="my-5 py-4 bg-secondary text-white " >
+        <Card.Body class="text-center">
         <h1>About US</h1>
         </Card.Body>
       </Card>
