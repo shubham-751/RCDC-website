@@ -14,7 +14,9 @@ const NavbarComp = () => {
                 <Nav className="me-auto">
                     <Link to="/" className="nav-link text-light">Home</Link>
                     <Link to="/projects" className="nav-link text-light">Projects</Link>
+                    <Link to="/Team" className="nav-link text-light">Team</Link>
                     <Link to="/contactus" className="nav-link text-light">Contact Us</Link>
+                    
                 </Nav>
                 </Navbar.Collapse>
             </Container>
