@@ -26,8 +26,8 @@ const Team = () => {
     <div class="col"><div class="card" style={{
         width:'25rem',
           }} >
-  <img src={Image} class="card-img-top " alt="1" />
-  <div class="card-body">
+  <img src={Image} class="card-img-top rounded " alt="1" />
+  <div class="card-body bg-secondary rounded">
     <p class="card-text">
         DIGITAL COMMUNICATION DIRECTOR
         <h1> Shubham Shyamdas pal</h1>
@@ -37,7 +37,7 @@ const Team = () => {
     <div class="col"><div class="card" style={{
         width:'25rem',
           }} >
-  <img src={Img} class="card-img-top " alt="2" />
+  <img src={Img} class="card-img-top rounded " alt="2" />
   <div class="card-body">
     <p class="card-text">
         DIGITAL COMMUNICATION DIRECTOR
