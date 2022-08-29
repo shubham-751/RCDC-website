@@ -10,43 +10,43 @@ const Team = () => {
     }, []);
 
     return (
-        /*<div class="card" style={{
+        /*<div className="card" style={{
         width:'25rem',
           }} >
-  <img src={Image} class="card-img-top " alt="2" />
-  <div class="card-body">
-    <p class="card-text">
+  <img src={Image} className="card-img-top " alt="2" />
+  <div className="card-body">
+    <p className="card-text">
         DIGITAL COMMUNICATION DIRECTOR
         <h1> Shubham Shyamdas pal</h1>
     </p>
   </div>
 </div>*/
-<Container class="container text-center">
-  <div class="row row-cols-2">
-    <div class="col"><div class="card" style={{
+<Container className="container text-center">
+  <div className="row row-cols-2">
+    <div className="col"><div className="card" style={{
         width:'25rem',
           }} >
-  <img src={Image} class="card-img-top rounded " alt="1" />
-  <div class="card-body bg-secondary rounded">
-    <p class="card-text">
+  <img src={Image} className="card-img-top rounded " alt="1" />
+  <div className="card-body bg-secondary rounded">
+    <p className="card-text">
         DIGITAL COMMUNICATION DIRECTOR
-        <h1> Shubham Shyamdas pal</h1>
+         Shubham Shyamdas pal
     </p>
   </div>
 </div></div>
-    <div class="col"><div class="card" style={{
+    <div className="col"><div className="card" style={{
         width:'25rem',
           }} >
-  <img src={Img} class="card-img-top rounded " alt="2" />
-  <div class="card-body">
-    <p class="card-text">
+  <img src={Img} className="card-img-top rounded " alt="2" />
+  <div className="card-body">
+    <p className="card-text">
         DIGITAL COMMUNICATION DIRECTOR
-        <h1> Parth Phansalkar</h1>
+         Parth Phansalkar
     </p>
   </div>
 </div></div>
-    <div class="col">Column</div>
-    <div class="col">Column</div>
+    <div className="col">Column</div>
+    <div className="col">Column</div>
   </div>
 </Container>
     );
