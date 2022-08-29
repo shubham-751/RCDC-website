@@ -12,7 +12,7 @@ const Home = () => {
         </center>
         <Row>
         <center>
-        <img src= {Img} class="img-fluid,rounded" alt="pic" />
+        <img src= {Img} class="img-fluid rounded" alt="pic" />
         </center>
         </Row>
         <Row>
@@ -22,16 +22,13 @@ const Home = () => {
         </Card.Body>
       </Card>
       </Row>
-      <p>
-        <center>
-It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a project where blocks of text are needed,
+      <p class="lead">
+      It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a project where blocks of text are needed,
 this tool can be a great way to get that. It's a good way to test your programming and that the tool being created is working well.
 Above are a few examples of how the random paragraph generator can be beneficial. The best way to see if this random paragraph picker
 will be useful for your intended purposes is to give it a try. Generate a number of paragraphs to see if they are beneficial to your current project.
-
-        </center>
-        
-        </p>
+</p>
+      
         
         <footer class="py-4 my-7 bg-black">
         <container className="px-4">
