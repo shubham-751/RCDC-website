@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-/*<<<<<<< HEAD*/
->>>>>>> 3fad77f72253ef85567d68e3be29c726c5cbf4f5
+
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 .navbar {
@@ -10,7 +7,6 @@
     flex-flow:row wrap;
     justify-content: space-between;
     padding: 0rem;
-<<<<<<< HEAD
 }
 
 .logo{
@@ -19,8 +15,7 @@
 
 /* HOME  */
 
-=======
-}
+
 
     .logo {
     height: 6rem;
@@ -32,25 +27,12 @@
 
 
 
-/* HOME  
-.home {
-<<<<<<< HEAD
-   
-}*/
->>>>>>> 3fad77f72253ef85567d68e3be29c726c5cbf4f5
+
 
 #dropdown-basic-button
 {
     color: black;
 
 }
-<<<<<<< HEAD
-=======
 
 
-/*
-=======
-    display: flex;
-}
->>>>>>> de105c219db6a45ffa283c2a52375b7386ebe859*/
->>>>>>> 3fad77f72253ef85567d68e3be29c726c5cbf4f5

@@ -1,9 +1,8 @@
 import React from "react";
 import Img from  '../images/rcdc.png';
-<<<<<<< HEAD
-=======
+
 import {Row,Card} from "react-bootstrap";
->>>>>>> 3fad77f72253ef85567d68e3be29c726c5cbf4f5
+
 
 const Home = () => {
     return (

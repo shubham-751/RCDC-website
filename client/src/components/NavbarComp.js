@@ -16,6 +16,7 @@ const NavbarComp = () => {
                     <Link to="/projects" className="nav-link text-light">Projects</Link>
                     <Link to="/Team" className="nav-link text-light">Team</Link>
                     <Link to="/contactus" className="nav-link text-light">Contact Us</Link>
+                    <Link to="/admin" className="nav-link text-light">Admin</Link>
                     
                 </Nav>
                 </Navbar.Collapse>

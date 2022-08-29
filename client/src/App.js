@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import Contactus from './components/Contactus';
 import Team from './components/Team';
+import Admin from './components/Admin';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contactus" element={<Contactus />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </Router>
       </div>

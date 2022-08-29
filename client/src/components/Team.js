@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import Image from '../images/1.jpg';
 import Img from '../images/2.jpg';
 
-const Projects = () => {
+const Team = () => {
 
     useEffect(() => {
         
@@ -52,4 +52,4 @@ const Projects = () => {
     );
 }
  
-export default Projects;
+export default Team;
