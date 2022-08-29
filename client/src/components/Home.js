@@ -7,7 +7,7 @@ import {Row,Card,Container} from "react-bootstrap";
 const Home = () => {
     return (
        
-        <div className="home"  class="container">
+        <div className="home container"  >
 		
         <center> 
         <h1>HOME</h1>
