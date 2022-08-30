@@ -23,6 +23,7 @@ adminRouter.post('/add', async (req, res) => {
    let proj = new Project(req.body);
    console.log(proj);
    await proj.save();
+   res.send("success");
 });
 
 adminRouter.post('/multiple', upload.array('images', 5), (req, res) => {

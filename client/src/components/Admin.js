@@ -28,8 +28,9 @@ const Admin = () => {
             body: formData,
         });
         response = await response.json();
+        
 
-        let eh = await fetch('http://localhost:5000/admin/add', {
+        await fetch('http://localhost:5000/admin/add', {
             method: 'POST',
             body: JSON.stringify({
                 title,
@@ -40,7 +41,7 @@ const Admin = () => {
                 'Content-Type': 'application/json'
             }
         });
-        navigate('/projects');
+        navigate('/projects'); 
     }
 
     
