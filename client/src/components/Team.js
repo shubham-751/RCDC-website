@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { Container } from "react-bootstrap";
-import Image from '../images/1.jpg';
-import Img from '../images/2.jpg';
+import { Container,Row } from "react-bootstrap";
+import Image from '../images/12.png';
+import Img from '../images/22.png';
 
 const Team = () => {
 
@@ -10,45 +10,26 @@ const Team = () => {
     }, []);
 
     return (
-        /*<div className="card" style={{
-        width:'25rem',
-          }} >
-  <img src={Image} className="card-img-top " alt="2" />
-  <div className="card-body">
-    <p className="card-text">
-        DIGITAL COMMUNICATION DIRECTOR
-        <h1> Shubham Shyamdas pal</h1>
-    </p>
-  </div>
-</div>*/
+      
 <Container className="container text-center">
-  <div className="row row-cols-2">
-    <div className="col"><div className="card" style={{
-        width:'25rem',
-          }} >
-  <img src={Image} className="card-img-top rounded " alt="1" />
-  <div className="card-body bg-secondary rounded">
-    <p className="card-text">
-        DIGITAL COMMUNICATION DIRECTOR
-         Shubham Shyamdas pal
-    </p>
-  </div>
-</div></div>
-    <div className="col"><div className="card" style={{
-        width:'25rem',
-          }} >
-  <img src={Img} className="card-img-top rounded " alt="2" />
-  <div className="card-body">
-    <p className="card-text">
-        DIGITAL COMMUNICATION DIRECTOR
-         Parth Phansalkar
-    </p>
-  </div>
-</div></div>
-    <div className="col">Column</div>
-    <div className="col">Column</div>
-  </div>
+<h1> Core Team</h1>
+  <img src={Img} class="rounded mx-auto d-block" alt="2"></img>
+  
+ <hr></hr>
+ <h1> BOARD OF DIRECTORS</h1>
+ <hr></hr>
+  <img src={Image} class="rounded mx-auto d-block" alt="1"></img>
+ 
+  
+  <footer  className="py-4 my-7 bg-black">
+        <Container className="px-4">
+            <p  className="text-center text-white">
+Copyright &copy; RCDC Website 2022
+            </p>
+        </Container>
+        </footer>
 </Container>
+
     );
 }
  
