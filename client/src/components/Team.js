@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Container,Row } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import Image from '../images/12.png';
 import Img from '../images/22.png';
 

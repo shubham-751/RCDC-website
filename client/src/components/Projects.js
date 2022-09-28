@@ -1,57 +1,63 @@
-import React, { useEffect, useState } from "react";
-
+import React, { useEffect} from "react";
+import {Container,Row} from "react-bootstrap";
 
 
 const Projects = () => {
-    
 
-    const [pLst, setpLst] = useState([]);
-
-    useEffect(() =>{
-        getlst();
+    useEffect(() => {
+        
     }, []);
-
-    const getlst = async () => {
-        let data = await fetch('http://localhost:5000/projects/projlist', {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
-        data = await data.json();
-        console.log(data);
-        setpLst(data);
-        console.log(pLst);
-    }
-
-    
-    
     return (
-        <div className="projects" >
-            {
-                // pLst.map((item, index) =>
-                //     <div className="postContent" key={item._id}>
-                //         PROJECT NUMBER : {index+1}
-                //         <br />
-                //         PROJECT TITLE : {item.title}
-                //         <br />
-                //         PROJECT DESCRIPTION : {item.desc}
-                //         <br />
-                //         IMAGE PATH : {item.images} 
-                //     </div>
-                // )
-                pLst.map((item, index) =>
-                <div className="card" key={item._id}>
-                    <img src={`..../server/uploads/${item.images}`} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">{item.title}</h5>
-                        <p className="card-text">{item.desc}</p>
-                        {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
-                    </div>
-                </div> 
-                )
-            }
-        </div>
+    <div class="container text-center">
+    <Row>
+    <div class="row">
+    <div class="col">
+      
+    <div class="card" style="width: 18rem;">
+  {/* <img src="..." class="card-img-top" alt="..."> */}
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+    </Row>
+    <hr></hr>
+    <Row>
+    <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+    </Row>
+  
+
+    
+    <footer  className="py-4 my-7 bg-black">
+        <Container className="px-4">
+            <p  className="text-center text-white">
+Copyright &copy; RCDC Website 2022
+            </p>
+        </Container>
+        </footer>
+  </div>
+    
+            
+    
+       
         
     );
 }
